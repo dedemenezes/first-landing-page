@@ -1,0 +1,40 @@
+/* Your button CSS file */
+.btn-medium {
+  /* border: 1px solid #999999; */
+  border-radius: 50px;
+  padding: 16px 32px;
+  background-color: #1EDD88;
+  color: white;
+  font-weight: lighter;
+  transition: all;
+  margin: 25px 0;
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: rgb(217, 231, 108);
+  font-size: 20px;
+  opacity: 0.8;
+  transition: opacity 0.35s ease;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+}
+
+.btn-mine {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 16px;
+  background-image: linear-gradient(rgb(70, 231, 236), rgb(189, 249, 251));
+  transition: all 0.6s;
+}
+
+.btn-mine:hover {
+  background-image: linear-gradient(rgb(70, 100, 236), rgb(189, 118, 251));
+}
+
+/* background-image: linear-gradient(273deg, rgb(86, 226, 231), rgb(168, 241, 243)); */

@@ -1,0 +1,36 @@
+.footer { 
+  background-color: #565661;
+  padding: 60px;
+  text-align: center;
+}
+
+.footer ul {
+  padding-left: 0;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer i {
+  font-size: 32px;
+  margin: 5px;
+  color: #1EDD88 ;
+  opacity: 0.7;
+}
+
+.footer i:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: rgb(219, 219, 219) ;
+  font-weight: lighter;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.footer:hover span {
+  font-weight: bold;
+  color: white;
+}
